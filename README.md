@@ -11,69 +11,6 @@ Our mission is to revolutionize the real estate market by providing a seamless a
 
 Property Finder also offers a direct communication channel between users and property owners or agents, allowing for quick and hassle-free inquiries. With a user-friendly interface and a commitment to accuracy and reliability, we strive to help individuals and families find a place they can truly call home.
 
-Features
-
-Browse a vast collection of properties for sale and rent.
-
-Advanced search filters to find homes based on location, price, and features.
-
-High-quality images and detailed descriptions for each listing.
-
-Contact property owners or agents directly.
-
-User-friendly interface for an effortless browsing experience.
-
-
-
-
-
-Installation
-
-To run the project locally, follow these steps:
-
-Clone the repository:
-
-git clone https://github.com/tiko051019/Makaan.git
-
-Navigate to the project directory:
-
-cd property-finder
-
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm start
-
-
-
-
-
-Technologies Used
-
-Frontend: React, Tailwind CSS
-
-Backend: Node.js, Express
-
-Database: MongoDB
-
-Contributing
-
-We welcome contributions! To contribute:
-
-Fork the repository.
-
-Create a new branch.
-
-Commit your changes.
-
-Push to your branch and create a pull request.
-
-License
-
-This project is licensed under the MIT License.
 
 Contact
 
