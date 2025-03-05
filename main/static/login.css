@@ -1,0 +1,105 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.form-wrapper {
+    background-color: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2.5rem; /* Larger font size for the title */
+}
+
+.input-group {
+    margin-bottom: 25px; /* Increased margin for spacing */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px; /* Increased padding for larger inputs */
+    font-size: 1.25rem; /* Larger font size */
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Slightly larger border radius */
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #00B98E;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px; /* Increased padding for a larger button */
+    background-color: #00B98E;
+    color: white;
+    border: none;
+    border-radius: 6px; /* Larger border radius */
+    font-size: 1.25rem; /* Larger font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #009d76;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer p {
+    font-size: 1rem; /* Slightly larger font for the footer text */
+    color: #555;
+}
+
+.signup-link {
+    font-size: 1.25rem; /* Larger font size for the signup link */
+    color: #00B98E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+.message {
+    margin-top: 25px;
+    padding: 15px; /* Larger padding for the message box */
+    background-color: #f9d6d6;
+    color: #a94442;
+    border: 1px solid #f5c6cb;
+    border-radius: 6px; /* Larger border radius for the message box */
+    text-align: center;
+    font-size: 1.125rem; /* Larger font size for the message */
+}
