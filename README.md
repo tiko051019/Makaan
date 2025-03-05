@@ -33,7 +33,7 @@ To run the project locally, follow these steps:
 
 Clone the repository:
 
-git clone https://github.com/yourusername/property-finder.git
+git clone https://github.com/tiko051019/Makaan.git
 
 Navigate to the project directory:
 
