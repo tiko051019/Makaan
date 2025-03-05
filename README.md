@@ -35,11 +35,12 @@ For any inquiries or feedback, please contact us at tikoabrahamyan05@gmail.com.
 
 Follow these steps to set up the Django project.
 
-1️⃣ Install Dependencies
+###  Install Dependencies
+```sh
 pip install -r req.txt
-2️⃣ Apply Migrations
+1️⃣ Apply Migrations
 python manage.py migrate
-3️⃣ Run the Server
+2️⃣ Run the Server
 python manage.py runserver
 Then, open http://127.0.0.1:8000/ in your browser to test the platform 🚀
 
