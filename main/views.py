@@ -8,7 +8,7 @@ from Hotels.settings import EMAIL_HOST_USER
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import get_object_or_404
 
-
+import random
 
 #____________________________________________________________________
 #____________________Register, Login, Logout_________________________
