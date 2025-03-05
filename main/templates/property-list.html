@@ -42,7 +42,7 @@
 
 
         <!-- Property List Start -->
-             <div class="container-xxl py-5">
+        <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-0 gx-5 align-items-end">
                     <div class="col-lg-6">
@@ -66,20 +66,19 @@
                     </div>
                 </div>
                 <div class="tab-content">
-                    <!-- ---------------------- -->
                     <div id="tab-1" class="tab-pane fade show p-0 active">
                         <div class="row g-4">
                             {% for i in proplisting %}
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="{{ i.img.url }}" alt=""></a>
+                                        <div><img class="img-fluidi" src="{{ i.img.url }}" alt="" height="344px" width="516px"></div>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">{{ i.goal }}</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">{{ i.name }}</div>
                                     </div>
                                     <div class="p-4 pb-0">
                                         <h5 class="text-primary mb-3">${{ i.price }}</h5>
-                                        <a class="d-block h5 mb-2" href="">{{ i.info }}</a>
+                                        <div class="d-block h5 mb-2">{{ i.info }}</div>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>{{ i.adress }}</p>
                                     </div>
                                     <div class="d-flex border-top">
@@ -90,7 +89,6 @@
                                 </div>
                             </div>
                             {% endfor %}
-
                         </div>
                     </div>
                     <div id="tab-2" class="tab-pane fade show p-0">
@@ -100,13 +98,13 @@
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="{{ i.img.url }}" alt=""></a>
+                                        <div><img class="img-fluid" src="{{ i.img.url }}" alt=""></div>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">{{ i.goal }}</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">{{ i.name }}</div>
                                     </div>
                                     <div class="p-4 pb-0">
                                         <h5 class="text-primary mb-3">${{ i.price }}</h5>
-                                        <a class="d-block h5 mb-2" href="">{{ i.info }}</a>
+                                        <div class="d-block h5 mb-2">{{ i.info }}</div>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>{{ i.adress }}</p>
                                     </div>
                                     <div class="d-flex border-top">
@@ -118,9 +116,6 @@
                             </div>
                                 {% endif %}
                             {% endfor %}
-                            <div class="col-12 text-center">
-                                <a class="btn btn-primary py-3 px-5" href="">Browse More Property</a>
-                            </div>
                         </div>
                     </div>
                     <div id="tab-3" class="tab-pane fade show p-0">
@@ -130,13 +125,13 @@
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="property-item rounded overflow-hidden">
                                     <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="{{ i.img.url }}" alt=""></a>
+                                        <div/div><img class="img-fluid" src="{{ i.img.url }}" alt=""></div>
                                         <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">{{ i.goal }}</div>
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">{{ i.name }}</div>
                                     </div>
                                     <div class="p-4 pb-0">
                                         <h5 class="text-primary mb-3">${{ i.price }}</h5>
-                                        <a class="d-block h5 mb-2" href="">{{ i.info }}</a>
+                                        <div/div class="d-block h5 mb-2">{{ i.info }}</div>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>{{ i.adress }}</p>
                                     </div>
                                     <div class="d-flex border-top">
@@ -148,12 +143,12 @@
                             </div>
                                 {% endif %}
                             {% endfor %}
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Property List End -->
 
 
         <center>
@@ -239,8 +234,9 @@
                                     <h1 class="mb-3">{{ i.text1 }}</h1>
                                     <p>{{ i.text2 }}</p>
                                 </div>
-                                <a href="" class="btn btn-primary py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
-                                <a href="" class="btn btn-dark py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>
+                                <p class="btn btn-primary py-3 px-4 me-2" onclick="scrollToFooter()">
+                                    <i class="fa fa-phone-alt me-2"></i>Make A Call
+                                </p>
                             </div>
                         </div>
                     </div>

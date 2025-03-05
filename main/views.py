@@ -8,8 +8,6 @@ from Hotels.settings import EMAIL_HOST_USER
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import get_object_or_404
 
-import random
-import time
 
 #____________________________________________________________________
 #____________________Register, Login, Logout_________________________
@@ -123,7 +121,7 @@ class HomeListView(LoginRequiredMixin,ListView):
         imgcycle = ImageCycle.objects.get()
         properties = Properties.objects.all()
         moreinfo = MoreInfo.objects.all()
-        proplisting = PropertyListing.objects.all()
+        proplisting = PropertyListing.objects.all()[:6]
         contactagent = ContactAgent.objects.all()
         propertyagents = PropertyAgents.objects.all()
         clientcomments = ClientOpinions.objects.all()
