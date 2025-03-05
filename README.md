@@ -15,3 +15,36 @@ Property Finder also offers a direct communication channel between users and pro
 Contact
 
 For any inquiries or feedback, please contact us at tikoabrahamyan05@gmail.com.
+
+
+
+
+# 🏡 Property Finder
+
+**Property Finder** is an innovative platform designed to simplify the process of finding the perfect home. Whether you are looking to buy a house, rent an apartment, or explore investment properties, our platform offers a comprehensive and user-friendly solution to meet your real estate needs.
+
+## ✨ Features
+
+- 🔍 **Extensive Property Listings** – Sourced from trusted real estate agents, property owners, and developers.
+- 🎯 **Advanced Filtering** – Search by location, price range, property type, number of bedrooms, amenities, and more.
+- 🖼 **High-Quality Images & Virtual Tours** – Get a real sense of the property before visiting.
+- 📞 **Direct Communication** – Contact property owners and agents easily.
+- 🚀 **User-Friendly Interface** – Simple, intuitive, and easy-to-navigate design.
+
+## ⚙️ Installation Guide
+
+Follow these steps to set up the Django project.
+
+### 1️⃣ Install Dependencies
+```sh
+pip install -r req.txt
+2️⃣ Apply Migrations
+python manage.py migrate
+3️⃣ Run the Server
+python manage.py runserver
+Then, open http://127.0.0.1:8000/ in your browser to test the platform 🚀
+
+
+
+
+
