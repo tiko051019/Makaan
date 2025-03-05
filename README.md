@@ -35,8 +35,7 @@ For any inquiries or feedback, please contact us at tikoabrahamyan05@gmail.com.
 
 Follow these steps to set up the Django project.
 
-### 1️⃣ Install Dependencies
-```sh
+1️⃣ Install Dependencies
 pip install -r req.txt
 2️⃣ Apply Migrations
 python manage.py migrate
